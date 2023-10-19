@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 100px;
+    text-align: center; /* Adicionando alinhamento central para o conteúdo */
+}
+
+.container h1 {
+    border-radius: 2px;
+    background-color: #222222;
+    color: #FFF;
+    padding: 10px; /* Adicionando algum preenchimento para espaçamento */
+}
+
+.container button {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: #222222;
+    border: solid 1px #222222;
+    font-weight: bold;
+}
+
